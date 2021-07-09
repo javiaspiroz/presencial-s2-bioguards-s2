@@ -1,0 +1,131 @@
+[
+  {
+    "usuario": "19535356F",
+    "contrasena": "lucasSocas",
+    "rol": "cuidador"
+  },
+  
+    {
+    "usuario": "24800428B",
+    "contrasena": "cristinaFraile",
+    "rol": "cuidador"
+  },
+  
+    {
+    "usuario": "01865731V",
+    "contrasena": "jaimeArribas",
+    "rol": "cuidador"
+  },
+  
+    {
+    "usuario": "99941921K",
+    "contrasena": "julioLimo",
+    "rol": "cuidador"
+  },   
+  
+    {
+    "usuario": "10772263Y",
+    "contrasena": "maitePino",
+    "rol": "cuidador"
+  },
+      {
+    "usuario": "52342356K",
+    "contrasena": "juanPerez",
+    "rol": "paciente"
+  },
+  
+      {
+    "usuario": "72343421J",
+    "contrasena": "carlosTetuan",
+    "rol": "paciente"
+  },
+  
+ {
+    "usuario": "52342237M",
+    "contrasena": "christianSantiago",
+    "rol": "paciente"
+  },
+  
+ {
+    "usuario": "22346774Q",
+    "contrasena": "anaCervera",
+    "rol": "paciente"
+  },
+  
+ {
+    "usuario": "42342323L",
+    "contrasena": "mariaCastellon",
+    "rol": "paciente"
+  }, 
+  
+   {
+    "usuario": "22342344Q",
+    "contrasena": "carlaODonnell",
+    "rol": "paciente"
+  },
+  
+   {
+    "usuario": "52342343K",
+    "contrasena": "mateoZhangNg",
+    "rol": "paciente"
+  },
+  
+   {
+    "usuario": "82346777J",
+    "contrasena": "ramonSomoza",
+    "rol": "paciente"
+  },
+  
+   {
+    "usuario": "62323426W",
+    "contrasena": "lauraWest",
+    "rol": "paciente"
+  },
+    
+    {
+    "usuario": "56945777K",
+    "contrasena": "saraLara",
+    "rol": "administrador"
+  },
+     {
+    "usuario": "07694351J",
+    "contrasena": "sergioMontes",
+    "rol": "administrador"
+  },
+  
+     {
+    "usuario": "35770954H",
+    "contrasena": "anaMartinez",
+    "rol": "administrador"
+  },
+  
+     {
+    "usuario": "28647832L",
+    "contrasena": "manuelOlmo",
+    "rol": "administrador"
+  },
+  
+      {
+    "usuario": "38734825J",
+    "contrasena": "jorgeChong",
+    "rol": "clinico"
+  },
+        {
+    "usuario": "38488290Z",
+    "contrasena": "mateoCordoba",
+    "rol": "clinico"
+  },
+  
+        {
+    "usuario": "09384832M",
+    "contrasena": "silviaCerrano",
+    "rol": "clinico"
+  },
+  
+        {
+    "usuario": "80594938Y",
+    "contrasena": "enriquePaz",
+    "rol": "clinico"
+  }    
+]
+    

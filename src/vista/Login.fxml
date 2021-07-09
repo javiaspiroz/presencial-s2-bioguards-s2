@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginMainPane" prefHeight="540.0" prefWidth="960.0" stylesheets="@Login_Registro_RecuperarC.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <BorderPane minHeight="-Infinity" prefHeight="90.0" prefWidth="800.0" styleClass="backgroundDarkBlue" stylesheets="@Login_Registro_RecuperarC.css" BorderPane.alignment="CENTER">
+               <left>
+                  <HBox alignment="CENTER" prefHeight="71.0" prefWidth="165.0" styleClass="backgroundBioguards" stylesheets="@Login_Registro_RecuperarC.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="67.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Imagenes/Logo_BioGuards.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets bottom="10.0" left="50.0" top="10.0" />
+                     </BorderPane.margin>
+                  </HBox>
+               </left>
+               <right>
+                  <ImageView fitHeight="75.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../../Imagenes/Logo_THENAS_blanco.jpg" />
+                     </image>
+                     <BorderPane.margin>
+                        <Insets right="40.0" />
+                     </BorderPane.margin>
+                  </ImageView>
+               </right>
+            </BorderPane>
+         </top>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" styleClass="backgroundImage" stylesheets="@Login_Registro_RecuperarC.css" BorderPane.alignment="CENTER">
+               <top>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="800.0" styleClass="backgroundBlue" stylesheets="@Login_Registro_RecuperarC.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="loginBotonResg" mnemonicParsing="false" onAction="#registrar" prefHeight="31.0" prefWidth="168.0" styleClass="btnRegistrarse" stylesheets="@Login_Registro_RecuperarC.css" text=" Registrarse ">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="MS Reference Sans Serif" size="12.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Imagenes/Registrarse_icono.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+               </top>
+               <center>
+                  <FlowPane alignment="CENTER" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="326.0" prefWidth="265.0" styleClass="VBoxBlue" stylesheets="@Login_Registro_RecuperarC.css">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="50.0" prefWidth="280.0">
+                                 <children>
+                                    <ImageView fitHeight="31.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../Imagenes/user.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXTextField fx:id="loginUsuario" focusColor="#d6dde5" labelFloat="true" prefHeight="31.0" prefWidth="175.0" promptText="Usuario" styleClass="text_JFXTextField" stylesheets="@Login_Registro_RecuperarC.css" unFocusColor="#314460">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="14.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="15.0" right="5.0" />
+                                       </HBox.margin>
+                                    </JFXTextField>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="50.0" prefWidth="280.0">
+                                 <children>
+                                    <ImageView fitHeight="31.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../Imagenes/password.png" />
+                                       </image>
+                                    </ImageView>
+                                    <JFXPasswordField fx:id="loginPass" focusColor="#d6dde5" labelFloat="true" prefHeight="30.0" prefWidth="175.0" promptText="Contraseña" styleClass="text_JFXTextField" stylesheets="@Login_Registro_RecuperarC.css" unFocusColor="#314460">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="14.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="15.0" right="5.0" />
+                                       </HBox.margin>
+                                    </JFXPasswordField>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <Button fx:id="loginEntrar" alignment="CENTER" mnemonicParsing="false" onAction="#iniciarSesion" prefHeight="33.0" prefWidth="104.0" styleClass="btnEntrar" stylesheets="@Login_Registro_RecuperarC.css" text="Entrar">
+                                 <VBox.margin>
+                                    <Insets bottom="25.0" top="10.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <HBox alignment="CENTER" prefHeight="35.0" prefWidth="280.0">
+                                 <children>
+                                    <Separator prefHeight="5.0" prefWidth="90.0" />
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../Imagenes/password_recovery.png" />
+                                       </image>
+                                       <HBox.margin>
+                                          <Insets left="15.0" right="15.0" />
+                                       </HBox.margin>
+                                    </ImageView>
+                                    <Separator prefHeight="1.0" prefWidth="90.0" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <Button fx:id="loginRecuperar" mnemonicParsing="false" onAction="#recuperarPass" styleClass="btnRecuperar" stylesheets="@Login_Registro_RecuperarC.css" text="Recuperar Contraseña" GridPane.rowIndex="3">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </FlowPane>
+               </center>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

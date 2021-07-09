@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry kind="lib" path="librerias/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="librerias/javacsv.jar"/>
+	<classpathentry kind="lib" path="librerias/jfoenix-8.0.10.jar"/>
+	<classpathentry kind="lib" path="librerias/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="librerias/javax.mail.jar"/>
+	<classpathentry kind="lib" path="librerias/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="librerias/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="librerias/calendar-demo.jar"/>
+	<classpathentry kind="lib" path="librerias/mariadb-java-client-2.6.0.jar"/>
+	<classpathentry kind="lib" path="librerias/sqlite-jdbc-3.25.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,151 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.backgroundDarkBlue{
+	-fx-background-color:  #314460;
+}
+
+.backgroundBioguards{
+	-fx-background-color: #9db6d2a3;
+	-fx-background-radius:15;
+	-fx-border-color: #d6dde5;
+	-fx-border-radius:15;
+	-fx-border-width:0.3em;
+}
+
+.backgroundImage{
+	-fx-background-image:url("file:Imagenes/background_login.jpg");
+	-fx-background-size: 100%100%;
+}
+
+.backgroundBlue {
+	-fx-background-color: #9db6d2a3;
+}
+
+.VBoxBlue{
+	-fx-background-color: #30435fe6;
+	-fx-background-radius:15;
+}
+
+.text_JFXTextField{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-text-fill: #d6dde5;
+	-fx-prompt-text-fill: #d6dde5;
+	-fx-font-size: 1.3em;
+}
+
+.text_JFXDatePicker{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-background-color:#d6dde5; 
+	-fx-font-size: 1.3em;
+}
+
+.text_LabelRegistro{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-text-fill: #30435f;
+	-fx-font-size: 2em;
+	-fx-font-weight: bold;
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-color: #314460;
+}
+
+.text_Label{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-text-fill: #d6dde5;
+	-fx-font-size: 1.3em;
+}
+
+.text_LabelTituloRecuperar{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 20px;
+	-fx-text-fill: #d6dde5;
+	-fx-font-weight: bold;
+}
+.text_LabelCuerpoRecuperar{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 13px;
+	-fx-text-fill: #deeff8;
+}
+
+
+.btnRegistrarse{
+	-fx-background-color:transparent;
+	-fx-text-fill: #314460;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1.25em;
+	-fx-font-weight: bold;
+}
+.btnRegistrarse:hover{
+	-fx-background-color:  transparent;
+	-fx-text-fill: #314460;
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-color: #314460;
+}
+.btnRegistrarse:pressed{
+	-fx-background-color:#30435f;
+	-fx-border-color: transparent;
+	-fx-text-fill: #d6dde5;
+}
+
+
+.btnEntrar{
+	-fx-background-color:#30435fc8;
+	-fx-background-radius: 100;
+	-fx-text-fill: #d6dde5;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1.2em;
+	-fx-font-weight: bold;
+}
+.btnEntrar:hover{
+	-fx-background-color:#d6dde5;
+	-fx-text-fill: #30435f;
+}
+.btnEntrar:pressed{
+	-fx-background-color: #9db6d2e6;
+	-fx-text-fill: #30435f;
+}
+
+
+.btnRecuperar{
+	-fx-background-color:  transparent;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-text-fill: #d6dde5;
+}
+.btnRecuperar:hover{
+	-fx-background-color:  transparent;
+	-fx-text-fill: #d6dde5;
+	-fx-underline: true;
+}
+
+
+.btnCancelar{
+	-fx-background-color:#9db6d2;
+	-fx-background-radius: 100;
+	-fx-text-fill: #30435fa3;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1em;
+	-fx-font-weight: bold;
+}
+.btnCancelar:hover{
+	-fx-background-color:#d6dde5;
+	-fx-text-fill: #30435f;
+}
+.btnCancelar:pressed{
+	-fx-background-color:#30435f;
+	-fx-text-fill: #d6dde5;
+}
+
+.btnAceptar{
+	-fx-background-color:#30435f;
+	-fx-background-radius: 100;
+	-fx-text-fill: #d6dde5;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1.2em;
+	-fx-font-weight: bold;
+}
+.btnAceptar:hover{
+	-fx-background-color:#d6dde5;
+	-fx-text-fill: #30435f;
+}
+.btnAceptar:pressed{
+	-fx-background-color: #9db6d2;
+	-fx-text-fill: #30435f;
+}

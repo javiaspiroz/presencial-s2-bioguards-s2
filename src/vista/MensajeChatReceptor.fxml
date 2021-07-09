@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane styleClass="lblChatReceptor" stylesheets="@InterfacesPerfiles.css" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="5.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="17.5" minHeight="10.0" prefHeight="17.5" valignment="BASELINE" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <BorderPane prefWidth="718.0">
+               <right>
+                  <Label fx:id="lblFechaMensaje" styleClass="textInformacion10px" stylesheets="@InterfacesPerfiles.css" text="Label" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets right="10.0" top="3.0" />
+                     </BorderPane.margin></Label>
+               </right>
+            </BorderPane>
+            <JFXTextArea fx:id="mensaje" editable="false" focusColor="#405aa800" prefHeight="100.0" styleClass="textInformacion12px" stylesheets="@InterfacesPerfiles.css" unFocusColor="#4d4d4d00" wrapText="true" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" />
+               </GridPane.margin></JFXTextArea>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

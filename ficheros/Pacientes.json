@@ -1,0 +1,218 @@
+[
+	{
+		"nombre": "Juan",
+		"apellidos": "Perez Vladimir",
+		"dni": "52342356K",
+		"fechaNacimiento": "1947-04-25",
+		"email": "adobrasca@gmail.com",
+		"telefono": 944342323,
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"22343",
+		"numero_paciente": "00000001",
+		"direccion": "Boadilla, Calle 30, Casa 82",
+		"sensores": [
+			"S00001",
+			"S00002",
+			"S00003"
+		],
+		"clinico":"38734825J",
+		"cuidador_familiar": ["99941921K", "24800428B"],
+		"chat": [
+			["F: cuanta es la dosis de la medicacion?",
+			"C: 200ml en cada toma"],
+			["C: Ha suminitrado la medicacion hoy?"]
+		]
+	},
+	{
+		"nombre": "Carlos",
+		"apellidos": "Tetuan Gonzalez",
+		"dni": "72343421J",
+		"fechaNacimiento": "1949-08-12",
+		"email": "carlos_tetuan_gon@gmail.com",
+		"telefono": 934442363,
+		"ciudad":"Getafe",
+		"provincia":"Madrid",
+		"codigoPostal":"23423",
+		"numero_paciente": "00000002",
+		"direccion": "Mostoles, Calle 44, Casa 92",
+		"sensores": [
+			"S00004",
+			"S00012",
+			"S00013"
+		],
+		"clinico": "38734825J",
+		"cuidador_familiar": ["19535356F"],
+		"chat": [
+			["F: me he retrasado en la sumistracion de la medicacion, puede hacerse ahora?",
+			"C: si, pero de forma puntual"]
+		]
+	},
+	{
+		"nombre": "Christian",
+		"apellidos": "Santiago Lopez",
+		"dni": "52342237M",
+		"fechaNacimiento": "1952-02-15",
+		"email": "christian_santiago_lo@gmail.com",
+		"telefono": 924342344,
+		"ciudad":"Leganes",
+		"provincia":"Madrid",
+		"codigoPostal":"234234",
+		"numero_paciente": "00000003",
+		"direccion": "Alonso Martinez, Calle 78, Casa 34",
+		"sensores": [
+			"S00005",
+			"S00014",
+			"S00015"
+		],
+		"clinico": "38734825J",
+		"cuidador_familiar": ["24800428B"],
+		"chat": [
+			["F: como puedo bajar la inflamacion?",
+			"C: aplique calor sobra la zona"]
+		]
+	},
+	{
+		"nombre": "Ana",
+		"apellidos": "Cervera Hernandez",
+		"dni": "22346774Q",
+		"fechaNacimiento": "1947-06-23",
+		"email": "ana_cervera_her@gmail.com",
+		"telefono": 914341111,
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"23423",
+		"numero_paciente": "00000004",
+		"direccion": "Tribunal, Calle 66, Casa 9",
+		"sensores": [
+			"S00006",
+			"S00016",
+			"S00017"
+		],
+		"clinico": "38488290Z",
+		"cuidador_familiar": ["01865731V"],
+		"chat": [
+			["F: hay ejercicios de memoria mas complejos?",
+			"C: si en la web de la clinica tiene mas disponibles"]
+		]
+	},
+	{
+		"nombre": "Maria",
+		"apellidos": "Castellon Cordoba",
+		"dni": "42342323L",
+		"fechaNacimiento": "1945-08-21",
+		"email": "maria_castellon_cor@gmail.com",
+		"telefono": 944336547,
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"23433",
+		"numero_paciente": "00000005",
+		"direccion": "Principe pio, Calle 64, Casa 7",
+		"sensores": [
+			"S00007",
+			"S00018",
+			"S00019"
+		],
+		"clinico": "38488290Z",
+		"cuidador_familiar": ["99941921K"],
+		"chat": [
+			["F: cuantas pastillas de sintron eran?",
+			"C: una y media en la comida"]
+		]
+	},
+	{
+		"nombre": "Carla",
+		"apellidos": "ODonnell Ng",
+		"dni": "22342344Q",
+		"fechaNacimiento": "1956-01-27",
+		"email": "carla_odonell_ng@gmail.com",
+		"telefono": 944379465,
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"345344",
+		"numero_paciente": "00000006",
+		"direccion": "Villaviciosa de Odon, Calle 58, Casa 12",
+		"sensores": [
+			"S00008",
+			"S00020",
+			"S00021"
+		],
+		"clinico": "09384832M",
+		"cuidador_familiar": ["10772263Y"],
+		"chat": [
+			["F: me he retrasado en la sumistracion de la medicacion, puede hacerse ahora?",
+			"C: si, pero de forma puntual"]
+		]
+	},
+	{
+		"nombre": "Mateo",
+		"apellidos": "Zhang Ng",
+		"dni": "52342343K",
+		"fechaNacimiento": "1978-04-01",
+		"email": "mateo_zhang_ng@gmail.com",
+		"telefono": 944353785,
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"32423",
+		"numero_paciente": "00000007",
+		"direccion": "Oria, Calle 55, Casa 2",
+		"sensores": [
+			"S00009",
+			"S00022",
+			"S00023"
+		],
+		"clinico": "09384832M",
+		"cuidador_familiar": ["19535356F"],
+		"chat": [
+			["F: que alimentos conviene que tome el paciente?",
+			"C: fruta como ciruela y cereales como la avena"]
+		]
+	},
+	{
+		"nombre": "Ramon",
+		"apellidos": "Somoza Correa",
+		"dni": "82346777J",
+		"fechaNacimiento": "1972-11-09",
+		"email": "ramon_somoza_co@gmail.com",
+		"telefono": 924326476,
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"23423",
+		"numero_paciente": "00000008",
+		"direccion": "Ventilla, Calle 90, Casa 5",
+		"sensores": [
+			"S00010",
+			"S00024",
+			"S00025"
+		],
+		"clinico": "80594938Y",
+		"cuidador_familiar": ["24800428B"],
+		"chat": [
+			["F: cual era el nivel de glucosa recomendado?"]
+		]
+	},
+	{
+		"nombre": "Laura",
+		"apellidos": "West Cedeno",
+		"dni": "62323426W",
+		"fechaNacimiento": "1961-09-01",
+		"email": "carlos_tetuan_gon@gmail.com",
+		"telefono": 954342355,
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"42343",
+		"numero_paciente": "00000009",
+		"direccion": "Chamartin, Calle 54, Casa 23",
+		"sensores": [
+			"S00011",
+			"S00026",
+			"S00027"
+		],
+		"clinico": "80594938Y",
+		"cuidador_familiar": ["19535356F"],
+		"chat": [
+			["F: me he retrasado en la sumistracion de la medicacion, puede hacerse ahora?",
+			"C: si, pero de forma puntual"]
+		]
+	}
+]

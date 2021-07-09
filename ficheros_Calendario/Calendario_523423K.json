@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 1,
+    "Title": "Nuevo Evento 1",
+    "StartDate": {
+      "year": 2021,
+      "month": 1,
+      "day": 13
+    },
+    "StartTime": {
+      "hour": 12,
+      "minute": 30,
+      "second": 0,
+      "nano": 0
+    },
+    "EndDate": {
+      "year": 2021,
+      "month": 1,
+      "day": 13
+    },
+    "EndTime": {
+      "hour": 13,
+      "minute": 30,
+      "second": 0,
+      "nano": 0
+    }
+  }
+]

@@ -1,0 +1,647 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.backgroundDarkBlue{
+	-fx-background-color:  #314460;
+}
+
+.backgroundBioguards{
+	-fx-background-color: #9db6d2a3;
+	-fx-background-radius:15;
+	-fx-border-color: #d6dde5;
+	-fx-border-radius:15;
+	-fx-border-width:0.3em;
+}
+
+.backgroundBlue {
+	-fx-background-color: #9db6d2a3;
+}
+
+.background-transparent {
+	-fx-background-color: transparent; 
+}
+
+.VBoxDarkBlue{
+	-fx-background-color: #30435f;
+}
+
+.backgroundBorder{
+	-fx-border-color: #30435f;
+	-fx-border-radius:15;
+	-fx-border-width: 3px;
+}
+
+.HBox-search{
+	-fx-background-color:#9db6d2a3;
+	-fx-background-radius:100;
+}
+
+
+/* ------------------ BOTONES ------------------ */
+.btnCerrarSesion{
+	-fx-background-color:transparent;
+	-fx-background-radius: 100;
+	-fx-text-fill: #30435fa3;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1.1em;
+	-fx-font-weight: bold;
+}
+.btnCerrarSesion:hover{
+	-fx-background-color:#9db6d2;
+	-fx-text-fill: #30435fa3;
+}
+.btnCerrarSesion:pressed{
+	-fx-background-color: #30435f;
+	-fx-text-fill: #d6dde5;
+}
+
+.btnOpciones{
+	-fx-background-color:transparent;
+	-fx-text-fill: #30435fa3;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1.2em;
+	-fx-font-weight: bold;
+}
+.btnOpciones:hover{
+	-fx-background-color:#9db6d2;
+	-fx-text-fill: #30435fa3;
+}
+.btnOpciones:pressed{
+	-fx-background-color: #30435f;
+	-fx-text-fill: #d6dde5;
+}
+
+.btnOpcionesLateral{
+	-fx-background-color:transparent;
+	-fx-text-fill: #d6dde5;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1.2em;
+	-fx-font-weight: bold;
+}
+.btnOpcionesLateral:hover{
+	-fx-background-color:#9db6d2;
+	-fx-text-fill: #30435fa3;
+}
+.btnOpcionesLateral:pressed{
+	-fx-background-color: #d6dde5;
+	-fx-text-fill: #30435fa3;
+}
+
+
+.btnSensores{
+	-fx-background-color:#30435f;
+	-fx-text-fill: #d6dde5;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+}
+.btnSensores:hover{
+	-fx-background-color:#9db6d2;
+	-fx-text-fill: #30435fa3;
+}
+.btnSensores:pressed{
+	-fx-background-color: #d6dde5;
+	-fx-text-fill: #30435fa3;
+}
+
+.btnAzul{
+	-fx-background-color:#30435f;
+	-fx-background-radius: 100;
+	-fx-text-fill: #d6dde5;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1em;
+	-fx-font-weight: bold;
+}
+.btnAzul:hover{
+	-fx-background-color:#d6dde5;
+	-fx-text-fill: #30435fa3;
+}
+.btnAzul:pressed{
+	-fx-background-color: #9db6d2a3;
+	-fx-text-fill: #30435fa3;
+}
+
+.btnChat{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/chat.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 20%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnChat:hover{
+	-fx-background-color:#9db6d2;
+	-fx-background-image:url("file:Imagenes/chat.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnChat:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/chat_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnSee{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/see.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnSee:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/see.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnSee:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/see_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnAdd{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/add.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnAdd:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/add.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnAdd:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/add_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnEditAzul{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/editar_icono2.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnEditAzul:hover{
+	-fx-background-color:#758ca8;
+	-fx-background-image:url("file:Imagenes/editar_icono2.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+
+.btnEditarPerfil{
+	-fx-background-color: transparent;
+}
+
+.btnEdit{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/editar_icono.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnEdit:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/editar_icono.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnEdit:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/editar_icono2.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnSave{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/save.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnSave:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/save.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnSave:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/save_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnDelete{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/trash.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnDelete:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/trash.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnDelete:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/trash_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnReturn{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/return.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnReturn:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/return.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnReturn:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/return_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnUpdate{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/update.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnUpdate:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/update.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnUpdate:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/update_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnCheck{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/check_icono.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnCheck:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/check_icono.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnCheck:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/check_icono2.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnSend{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/send.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnSend:hover{
+	-fx-background-color:#d6dde5;
+	-fx-background-image:url("file:Imagenes/send.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+.btnSend:pressed{
+	-fx-background-color: #30435f;
+	-fx-background-image:url("file:Imagenes/send_hover.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnCheckAzul{
+	-fx-background-color: transparent;
+	-fx-background-image:url("file:Imagenes/check_icono2.png");
+	-fx-background-size: 60%60%;
+	-fx-background-radius: 100%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+.btnCheckAzul:hover{
+	-fx-background-color:#758ca8;
+	-fx-background-image:url("file:Imagenes/check_icono2.png");
+	-fx-background-size: 60%60%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+
+
+.btnChatClinico {
+	-fx-background-color: transparent; 
+}
+.btnChatClinico:hover{
+	-fx-background-color:#9db6d241;
+}
+.btnChatClinico:pressed{
+	-fx-background-color: #9db6d264;
+}
+
+
+.btnChatCuidador {
+	-fx-background-color: transparent; 
+}
+.btnChatCuidador:hover{
+	-fx-background-color:#9db6d241;
+}
+.btnChatCuidador:pressed{
+	-fx-background-color: #9db6d264;
+}
+
+
+
+.btnChatPaciente {
+	-fx-background-color: transparent; 
+}
+.btnChatPaciente:hover{
+	-fx-background-color:#9db6d241;
+}
+.btnChatPaciente:pressed{
+	-fx-background-color: #9db6d264;
+}
+
+/* ------------------ TEXTO ------------------ */
+.lblEstadoVerde{
+	-fx-background-color:rgb(128,255,0);
+	-fx-background-radius:5;
+	-fx-border-color: #30435f;
+	-fx-border-radius:5;
+	-fx-border-width: 2px;
+}
+
+.lblEstadoRojo{
+	-fx-background-color:rgb(255,30,64);
+	-fx-background-radius:5;
+	-fx-border-color: #30435f;
+	-fx-border-radius:5;
+	-fx-border-width: 2px;
+}
+
+.HBoxRol{
+	-fx-background-color:#ffffff;
+	-fx-background-radius:15;
+	-fx-border-color: #d6dde5;
+	-fx-border-radius:14;
+	-fx-border-width:4px;
+}
+.lblRolAdministrador{
+	-fx-text-fill:#cb2c48;
+	-fx-font-family: Calibri;
+	-fx-font-size: 16px;
+}
+.lblRolClinico{
+	-fx-text-fill: #000000;
+	-fx-font-family: Calibri;
+	-fx-font-size: 16px;
+}
+.lblRolPaciente{
+	-fx-text-fill: #1dace2;
+	-fx-font-family: Calibri;
+	-fx-font-size: 16px;
+}
+.lblRolCuidador{
+	-fx-text-fill: #51b353;
+	-fx-font-family: Calibri;
+	-fx-font-size: 16px;
+}
+
+.lblChat {
+	-fx-background-color: transparent;
+	-fx-background-radius:100;
+	-fx-border-color: #d6dde5;
+	-fx-border-radius:100;
+	-fx-border-width:2px;
+}
+
+.lblChatEmisor{
+	-fx-border-color: #30435f;
+	-fx-border-radius:15;
+	-fx-border-width: 2px;
+}
+
+.lblChatReceptor{
+	-fx-background-color:#9db6d241;
+	-fx-border-color: #30435f;
+	-fx-border-radius:15;
+	-fx-border-width: 2px;
+	-fx-background-radius:15;
+}
+
+.textFieldDatosPerfil{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:14px;
+}
+
+.textInformacion10px{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:9px;
+}
+
+.textInformacion12px{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:12px;
+}
+
+.textInformacion12pxWhite{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:12px;
+	-fx-text-fill: #d6dde5a3;
+}
+
+.textInformacion13px{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:13px;
+}
+.textInformacion13pxWhiteBold{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:13px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.textInformacion14px{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:14px;
+}
+.textInformacion14pxWhiteBold{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:14px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.textInformacion14pxBlue{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:14px;
+	-fx-background-color: #d6dde5;
+	-fx-background-radius: 100;
+}
+
+.textInformacion15px{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:15px;
+}
+.textInformacion15pxWhite{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:15px;
+	-fx-text-fill: white;
+}
+
+.textInformacion17pxBold{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:17px;
+	-fx-font-weight: bold;
+}
+
+.textInformacion18pxBold{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:18px;
+	-fx-font-weight: bold;
+}
+
+.textDatosPerfil{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:18px;
+	-fx-font-weight: bold;
+}
+
+.labelDatosPerfil{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size:18px;
+	-fx-font-weight: bold;
+}
+.lblBuscar{
+	-fx-background-color:#30435f;
+	-fx-background-radius: 100;
+	-fx-text-fill: #d6dde5;
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-font-size: 1.1em;
+	-fx-font-weight: bold;
+}
+
+.textArea{
+	-fx-border-color: #30435f; 
+	-fx-background-color:#d6dde5;
+	-fx-background-radius:5px;
+    -fx-border-radius:5px;
+    -fx-border-width: 1.5px;
+}
+.text_JFXDatePicker{
+	-fx-font-family: MS Reference Sans Serif;
+	-fx-background-color:#d6dde5; 
+	-fx-font-size: 12px;
+}
+
+/* ------------------ TABLA ------------------ */
+.table-view { 
+	-fx-background-color: white;
+    -fx-border-color: #30435f; 
+    -fx-border-radius:5px;
+    -fx-border-width: 2px;
+}
+/* Formato para las celdas del tableview */
+.table-cell {     
+    -fx-padding: 1 0 1 5;
+    -fx-border-color: #d6dde5;
+    -fx-border-width: 0 0 1 0;
+    -fx-font-size:12px;
+    -fx-alignment: center;
+}
+.tableColumnAlignmentLeft {
+	-fx-alignment: center-left;
+}
+/* Estilo titulos de las columnas */
+.table-view .column-header .label{
+	-fx-background-color: #30435f; 
+    -fx-text-fill: #d6dde5;
+    -fx-border-color: white; 
+    -fx-border-width: 1 0 1 0;
+}
+/* Estilo fondo de los titulos*/
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #30435f;    
+    -fx-size: 22;
+    -fx-background-radius:5px;
+    -fx-border-color: white;
+}
+/* Color de una fila cuando en raton se encuentra sobre la misma */
+.table-view:row-selection .table-row-cell:filled:hover { 
+    -fx-background-color: #9db6d2a3;
+	-fx-font-size:12px;
+}
+/* Color de una fila seleccionada */ 
+.table-view:row-selection .table-row-cell:filled:selected { 
+    -fx-background-color: #9db6d2;
+    -fx-font-size:12px;
+}
+/* Eliminar borde de celdas en las filas vacias */
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+.table-row-cell:empty, .table-cell:empty:hover {
+    -fx-background-color: whitesmoke;
+} 

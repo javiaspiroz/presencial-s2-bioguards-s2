@@ -1,0 +1,58 @@
+[
+	{
+		"nombre": "Jorge",
+		"apellidos": "Chong",
+		"dni": "38734825J",
+		"email": "Jorge.ch@gmail.com",
+		"fechaNacimiento": "1979-05-17",
+		"direccion": "Lavapies, Calle 4, Casa 9",
+		"telefono": 645434432,		
+		"ciudad":"Madrid",
+		"provincia":"Madrid",
+		"codigoPostal":"34534",
+		"especialidad": "General",
+		"pacientes": ["52342356K", "72343421J", "52342237M"]
+	},
+	{
+		"nombre": "Mateo",
+		"apellidos": "Cordoba Gonzales",
+		"dni": "38488290Z",
+		"email": "mate4243@outlook.com",
+		"fechaNacimiento": "1984-06-10",
+		"direccion": "Gregorio Marañon, Calle 5, Casa 5",
+		"telefono": 664456393,
+		"ciudad":"Asturias",
+		"provincia":"Asturias",
+		"codigoPostal":"23423",
+		"especialidad": "Cardiologo",
+		"pacientes": ["22346774Q","42342323L"]
+	},
+	{
+		"nombre": "Silvia",
+		"apellidos": "Serrano Lopez",
+		"dni": "09384832M",
+		"email": "silvasicerr@hotmail.com",
+		"fechaNacimiento": "1970-02-22",
+		"direccion": "Torrejon de Ardoz, Calle 7, Casa 77",
+		"telefono": 693868294,
+		"ciudad":"Zaragoza",
+		"provincia":"Zaragoza",
+		"codigoPostal":"32424",
+		"especialidad": "Neurologo",
+		"pacientes": ["22342344Q","52342343K"]
+	},
+	{
+		"nombre": "Enrique",
+		"apellidos": "Paz Gutierres",
+		"dni": "80594938Y",
+		"email": "enriquepaz32@gmail.com",
+		"fechaNacimiento": "1965-12-05",
+		"direccion": "Callao, Calle 34, Casa 42",
+		"telefono": 693858384,
+		"ciudad":"Madrid",
+		"provincia":"Getafe",
+		"codigoPostal":"32432",
+		"especialidad": "Neurologo",
+		"pacientes": ["82346777J","62323426W"]		
+	}
+]

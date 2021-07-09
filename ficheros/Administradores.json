@@ -1,0 +1,54 @@
+[
+  {
+    "nombre": "Sara",
+    "apellidos": "Lara Ballesta",
+    "dni": "56945777K",
+    "email": "adobrasca@gmail.com",
+    "fechaNacimiento": "1990-02-08",
+    "direccion": "Hospital Sofia, Calle 4, Casa 9",
+    "telefono": 645437659,
+    "ciudad":"Madrid",
+    "provincia":"Madrid",
+    "codigoPostal":"23444",
+    "tipo": 1
+  },
+  {
+    "nombre": "Sergio",
+    "apellidos": "Montes Leiro",
+    "dni": "07694351J",
+    "email": "sergio_ml@gmail.com",
+    "fechaNacimiento": "1995-06-19",
+    "direccion": "Sol, Calle 6, Casa 96",
+    "telefono": 645438649,
+    "ciudad":"Madrid",
+    "provincia":"Madrid",
+    "codigoPostal":"42344",
+    "tipo": 2
+  },
+  {
+    "nombre": "Ana",
+    "apellidos": "Martinez Sarmiento",
+    "dni": "35770954H",
+    "email": "ana.ms23@gmail.com",
+    "fechaNacimiento": "1997-10-08",
+    "direccion": "San Jose, Calle 5ta, Casa 7",
+    "telefono": 645437395,
+    "ciudad":"Avila",
+    "provincia":"Avila",
+    "codigoPostal":"12312",
+    "tipo": 2
+  },
+  {
+    "nombre": "Manuel",
+    "apellidos": "Olmo Villanueva",
+    "dni": "28647832L",
+    "email": "manuel.olmo87@hotmail.es",
+    "fechaNacimiento": "1970-08-08",
+    "direccion": "Mostoles, Calle 4, Casa 2",
+    "telefono": 645437773,
+    "ciudad":"Madrid",
+    "provincia":"Madrid",
+    "codigoPostal":"28670",
+    "tipo": 1
+  }
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"dniEmisor": "p",
+		"dniReceptor": "c",
+		"fechaMensaje": "Jan 9, 2021 12:00:00 PM",
+		"mensaje":"Hola, (emisor p), mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm p mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm p mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ppppppppppppppppppppppppppppppppppppppppppppppppppppppppp oooooooooooooooooooooooooo"
+	},
+	{
+		"dniEmisor": "c",
+		"dniReceptor": "p",
+		"fechaMensaje": "Jan 9, 2021 12:00:00 PM",
+		"mensaje":"Hola, (emisor c), mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm p mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm p mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ppppppppppppppppppppppppppppppppppppppppppppppppppppppppp oooooooooooooooooooooooooo"
+	},
+	{
+		"dniEmisor": "f",
+		"dniReceptor": "c",
+		"fechaMensaje": "Jan 9, 2021 12:00:00 PM",
+		"mensaje":"Emisor familiar"
+	},
+	{
+		"dniEmisor": "c",
+		"dniReceptor": "f",
+		"fechaMensaje": "Jan 9, 2021 12:01:00 PM",
+		"mensaje":"Emisor clinico"
+	}
+]

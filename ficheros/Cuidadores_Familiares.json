@@ -1,0 +1,67 @@
+[
+  {
+    "nombre": "Lucas",
+    "apellidos": "Socas Llanos",
+    "dni": "19535356F",
+    "email": "adobrasca@gmail.com",
+    "fechaNacimiento": "2000-12-02",
+    "direccion": "Villaviciosa de Odon, Calle 30, Casa 32",
+    "telefono": 695632154,
+    "ciudad":"Zaragoza",
+    "provincia":"Zaragoza",
+	"codigoPostal":"23423",
+    "pacientes": ["6232342W", "52342343K", "72343421J"]
+  },
+  {
+    "nombre": "Cristina",
+    "apellidos": "Fraile Selas",
+    "dni": "24800428B",
+    "email": "cristinafs@bioguards.com",
+    "fechaNacimiento": "1990-09-04",
+    "direccion": "Santiago Bernabeu, Calle 78, Casa 12",
+    "telefono": 687542165,
+    "ciudad":"Caspe",
+    "provincia":"Zaragoza",
+	"codigoPostal":"23432",
+    "pacientes": ["82346777J", "5234223M", "52342356K"]
+  },
+  {
+    "nombre": "Jaime",
+    "apellidos": "Arribas Valle",
+    "dni": "01865731V",
+    "email": "jaimeav@bioguards.com",
+    "fechaNacimiento": "1999-03-11",
+    "direccion": "Cuzco, Calle 74, Casa 72",
+    "telefono": 674522151,
+    "ciudad":"Alagon",
+    "provincia":"Zaragoza",
+	"codigoPostal":"32423",
+    "pacientes": ["2234677Q"]
+  },
+  {
+    "nombre": "Julio",
+    "apellidos": "Limo Ramos",
+    "dni": "99941921K",
+    "email": "juliolr@bioguards.com",
+    "fechaNacimiento": "1965-05-07",
+    "direccion": "Plaza Castilla, Calle 80, Casa 42",
+    "telefono": 675896125,
+    "ciudad":"Zaragoza",
+    "provincia":"Zaragoza",
+	"codigoPostal":"212312",
+    "pacientes": ["42342323L", "52342356K"]
+  },
+  {
+    "nombre": "Maite",
+    "apellidos": "Pino Usera",
+    "dni": "10772263Y",
+    "email": "maitepu@bioguards.com",
+    "fechaNacimiento": "1995-08-12",
+    "direccion": "Legazpi, Calle 54, Casa 65",
+    "telefono": 632541789,
+    "ciudad":"Zaragoza",
+    "provincia":"Zaragoza",
+	"codigoPostal":"213123",
+    "pacientes": ["22342344Q"]
+  }
+]
